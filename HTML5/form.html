@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form </h1>
+
+    <form action="">
+        <p>Name: <input type="text" name="name" placeholder="Enter your name" id=""></p>
+
+        <p>Email: <input type="email" name="email" placeholder="Enter your Email" id=""></p>
+
+        <fieldset>
+            <legend>Select your option</legend>
+            <p>
+                <label for="durger">
+                    <input type="radio" name="food" id="durger">Burger
+                </label>
+            </p>
+
+            <p>
+                <label for="donner">
+                    <input type="radio" name="food" id="donner">Donner
+                </label>
+            </p>
+
+            <p>
+                <label for="pizza">
+                    <input type="radio" name="food" id="pizza">Pizza
+                </label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select Drinks : </legend>
+
+            <p><label for="cola"><input type="checkbox" name="drinks" id="cola">Cola</label></p>
+            <p><label for="beer"><input type="checkbox" name="drinks" id="beer">Beer</label></p>
+            <p><label for="wasser"><input type="checkbox" name="drinks" id="wasser">Wasser</label></p>
+        </fieldset>
+
+        <p>Special instruction
+            <br>
+            <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+        </p>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    
+    </form>
+    
+</body>
+</html>

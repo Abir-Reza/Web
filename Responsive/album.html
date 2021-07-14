@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <style>
+        .photo-album{
+            /* border: 2px dotted slateblue; */
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        .photo-frame{
+            width: 300px;
+            height: 200px;  
+            border: 2px solid yellowgreen; 
+            border-radius: 10px; 
+            position: relative;
+            margin: 15px;
+            overflow: hidden; 
+
+        }
+
+        .photo img{
+            width: 100%; 
+            /* size: 25%; */
+            border-radius: 10px;
+
+        }
+
+        .photo-detail{
+            position: absolute; 
+            width: 300px;
+            top: 0;
+            display: none;
+        }
+        .photo-frame:hover .photo-detail{
+            /* display: block; */
+            /* background-color: rgba(199, 180, 135,0.3);} */
+            background-color: rgba(199, 180, 135,0.5);
+        }
+        .photo-frame:hover .photo{
+            transform: scale(1.5) rotate(360deg);
+            transition: transform 2s ; 
+
+        }    
+    
+        .photo{
+            
+            
+        }
+    </style>
+</head>
+<body>
+        <section>
+            <h2>My awesome photo album</h2>
+            <div class="photo-album">
+                <div class="photo-frame">
+                    <div class="photo">
+                        <img src="images/4-removebg-preview.png" alt="">
+                    </div>
+                    <div class="photo-detail">
+                        <h3>photo title</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae odio repellendus est ex dolor quidem necessitatibus a delectus optio temporibus, qui nisi maxime vitae? Iste doloribus molestiae quis deserunt!
+                        </p>
+                    </div>
+                </div>
+                <div class="photo-frame">
+                    <div class="photo">
+                        <img src="images/4-removebg-preview.png" alt="">
+                    </div>
+                    <div class="photo-detail">
+                        <h3>photo title</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae odio repellendus est ex dolor quidem necessitatibus a delectus optio temporibus, qui nisi maxime vitae? Iste doloribus molestiae quis deserunt!
+                        </p>
+                    </div>
+                </div><div class="photo-frame">
+                    <div class="photo">
+                        <img src="images/4-removebg-preview.png" alt="">
+                    </div>
+                    <div class="photo-detail">
+                        <h3>photo title</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae odio repellendus est ex dolor quidem necessitatibus a delectus optio temporibus, qui nisi maxime vitae? Iste doloribus molestiae quis deserunt!
+                        </p>
+                    </div>
+                </div><div class="photo-frame">
+                    <div class="photo">
+                        <img src="images/4-removebg-preview.png" alt="">
+                    </div>
+                    <div class="photo-detail">
+                        <h3>photo title</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae odio repellendus est ex dolor quidem necessitatibus a delectus optio temporibus, qui nisi maxime vitae? Iste doloribus molestiae quis deserunt!
+                        </p>
+                    </div>
+                </div><div class="photo-frame">
+                    <div class="photo">
+                        <img src="images/4-removebg-preview.png" alt="">
+                    </div>
+                    <div class="photo-detail">
+                        <h3>photo title</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae odio repellendus est ex dolor quidem necessitatibus a delectus optio temporibus, qui nisi maxime vitae? Iste doloribus molestiae quis deserunt!
+                        </p>
+                    </div>
+                </div><div class="photo-frame">
+                    <div class="photo">
+                        <img src="images/4-removebg-preview.png" alt="">
+                    </div>
+                    <div class="photo-detail">
+                        <h3>photo title</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae odio repellendus est ex dolor quidem necessitatibus a delectus optio temporibus, qui nisi maxime vitae? Iste doloribus molestiae quis deserunt!
+                        </p>
+                    </div>
+                </div><div class="photo-frame">
+                    <div class="photo">
+                        <img src="images/4-removebg-preview.png" alt="">
+                    </div>
+                    <div class="photo-detail">
+                        <h3>photo title</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae odio repellendus est ex dolor quidem necessitatibus a delectus optio temporibus, qui nisi maxime vitae? Iste doloribus molestiae quis deserunt!
+                        </p>
+                    </div>
+                </div><div class="photo-frame">
+                    <div class="photo">
+                        <img src="images/4-removebg-preview.png" alt="">
+                    </div>
+                    <div class="photo-detail">
+                        <h3>photo title</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae odio repellendus est ex dolor quidem necessitatibus a delectus optio temporibus, qui nisi maxime vitae? Iste doloribus molestiae quis deserunt!
+                        </p>
+                    </div>
+                </div><div class="photo-frame">
+                    <div class="photo">
+                        <img src="images/4-removebg-preview.png" alt="">
+                    </div>
+                    <div class="photo-detail">
+                        <h3>photo title</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae odio repellendus est ex dolor quidem necessitatibus a delectus optio temporibus, qui nisi maxime vitae? Iste doloribus molestiae quis deserunt!
+                        </p>
+                    </div>
+                </div><div class="photo-frame">
+                    <div class="photo">
+                        <img src="images/4-removebg-preview.png" alt="">
+                    </div>
+                    <div class="photo-detail">
+                        <h3>photo title</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repudiandae odio repellendus est ex dolor quidem necessitatibus a delectus optio temporibus, qui nisi maxime vitae? Iste doloribus molestiae quis deserunt!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+</body>
+</html>

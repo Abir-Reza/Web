@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex layout</title>
+    <style>
+        
+        .container{
+            border: 2px solid green;
+            height: 400px;
+            display: flex;
+
+            /* justify-content is used to adjust along horizontal line */
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly;  */
+            /* justify-content: space-around; */
+
+
+            /* align-items: is used to adjust items along verticle line  */
+            align-items: center;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 2px dotted rebeccapurple;
+            font-size: 3em;
+
+        }
+
+        #box3{
+            flex-grow: 1;
+        }
+        #box2{
+            flex-grow: 3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Flexible layouta</h1>
+    <div class="container">
+        <div class="box">Box-1</div>
+        <div id=box2 class="box">Box-2</div>
+        <div  id='box3' class="box">Box-3</div>
+    </div>
+
+    
+</body>
+</html>
